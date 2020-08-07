@@ -1,0 +1,306 @@
+ html,
+ body,
+ div,
+ span,
+ applet,
+ object,
+ iframe,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+ a,
+ abbr,
+ acronym,
+ address,
+ big,
+ cite,
+ code,
+ del,
+ dfn,
+ em,
+ img,
+ ins,
+ kbd,
+ q,
+ s,
+ samp,
+ small,
+ strike,
+ strong,
+ sub,
+ sup,
+ tt,
+ var,
+ b,
+ u,
+ i,
+ center,
+ dl,
+ dt,
+ dd,
+ ol,
+ ul,
+ li,
+ fieldset,
+ form,
+ label,
+ legend,
+ table,
+ caption,
+ tbody,
+ tfoot,
+ thead,
+ tr,
+ th,
+ td,
+ article,
+ aside,
+ canvas,
+ details,
+ embed,
+ figure,
+ figcaption,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ output,
+ ruby,
+ section,
+ summary,
+ time,
+ mark,
+ audio,
+ video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+ }
+
+ /* HTML5 display-role reset for older browsers */
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ section {
+   display: block;
+ }
+
+ body {
+   line-height: 1;
+ }
+
+ ol,
+ ul {
+   list-style: none;
+ }
+
+ blockquote,
+ q {
+   quotes: none;
+ }
+
+ blockquote:before,
+ blockquote:after,
+ q:before,
+ q:after {
+   content: '';
+   content: none;
+ }
+
+ table {
+   border-collapse: collapse;
+   border-spacing: 0;
+ }
+
+ /* ini css resett */
+
+ .cf:before,
+ .cf:after {
+   content: " ";
+   /* 1 */
+   display: table;
+   /* 2 */
+ }
+
+ .cf:after {
+   clear: both;
+ }
+
+ .cf {
+   *zoom: 1;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* kodingan web */
+ body {
+   background-color: darkgrey;
+   font: 16px/28px arial;
+ }
+
+ .box {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 50px;
+   background-color: rgb(64, 67, 68);
+ }
+
+ .box p {
+   color: darkgrey;
+   font-size: 30px;
+   text-align: center;
+   line-height: 50px;
+ }
+
+ .container {
+   width: 1200px;
+   background-color: honeydew;
+   margin: auto;
+
+ }
+
+ .header .cari {
+   margin-left: 1000px;
+
+ }
+
+ .header {
+   margin-top: 50px;
+
+
+ }
+
+ .header ul li {
+   display: inline-block;
+   margin: 10px;
+
+ }
+
+ .header a {
+   text-decoration: none;
+   border-radius: 5px;
+   padding: 2px;
+
+ }
+
+ .header a:hover {
+   background-color: blue;
+   color: rgb(255, 238, 0);
+
+ }
+
+ .gambar {
+   background-image: url(computer.jpg);
+   height: 350px;
+   background-size: cover;
+   background-position: 0 -170px;
+   border-bottom: 5px solid rgb(131, 131, 247);
+   border-top: 5px solid rgb(131, 131, 247);
+   ;
+ }
+
+
+ .footer {
+   height: 50px;
+   background-color: rgb(58, 62, 117);
+   text-align: center;
+   line-height: 50px;
+ }
+
+ .footer p {
+   font-size: 20px;
+   margin-bottom: 10px;
+ }
+
+ .artikelKiri {
+   margin: 20px;
+   width: 600px;
+   box-sizing: border-box;
+   float: left;
+ }
+
+ .artikelKiri p {
+   text-align: justify;
+ }
+
+ .artikelKanan {
+   width: 500px;
+   margin: 20px;
+   float: right;
+
+ }
+
+ .artikelKanan img {
+   width: 90px;
+   /* height: 100px; */
+   margin: 10px;
+   float: left;
+ }
+
+ .artikelKanan p {
+   margin-left: 50px;
+ }
+
+ .data {
+   margin: 10px;
+
+ }
+
+ .data ul li a {
+   text-decoration: none;
+   color: dimgrey;
+   padding: 3.5px;
+   border-radius: 7px;
+
+ }
+
+ .data ul li a:hover {
+   background-color: rgb(64, 67, 68);
+   color: silver;
+ }
+
+ .dataIsi {
+   width: auto;
+   height: 250px;
+   border: 2px solid rgba(70, 65, 65, 0.582);
+   margin: 10px;
+   box-sizing: border-box;
+   text-align: center;
+   font-weight: bold;
+ }
+
+ .dataIsi img {
+   width: 65px;
+   height: 65px;
+   flex-wrap: nowrap;
+
+ }
